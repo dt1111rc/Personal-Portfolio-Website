@@ -80,11 +80,15 @@
 
 <section id="contact" class="contact">
   <h2>Contact Me</h2>
-  <input type="text" placeholder="Name">
-  <input type="email" placeholder="Email">
-  <textarea placeholder="Message"></textarea>
-  <button class="btn">Submit</button>
+
+  <form action="mailto:debarghya2016@gmail.com" method="post" enctype="text/plain">
+    <input type="text" name="name" placeholder="Name" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <textarea name="message" placeholder="Message" required></textarea>
+    <button type="submit" class="btn">Submit</button>
+  </form>
 </section>
+
 
 <footer class="footer">
   <a href="tel:8436210643">Call</a>
@@ -93,5 +97,6 @@
 
 </body>
 </html>
+
 
 
